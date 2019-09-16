@@ -1,0 +1,434 @@
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
+    <title>Ethics Quiz </title>
+</head>
+
+<body class="wrapper">
+
+    <!--Menu header section-->
+    <section class="menu-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mtn-menu container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" class="logo-img" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto pl-4 pt-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Gallery
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="photo.html">Photos</a>
+                            <a class="dropdown-item" href="video.html">Videos, Training and Interviews</a>
+                        </div>
+                    </li>
+                    <li class="nav-item  dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Ethics Policies
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="conflict-interest.html">Conflict of Interest</a>
+                            <a class="dropdown-item" href="giftand-entertainment.html">Gifts & Entertainment</a>
+                            <a class="dropdown-item" href="conduct-passport.html">Conduct Passport</a>
+                            <a class="dropdown-item" href="whistleblowing.html">Whistleblowing</a>
+                            <a class="dropdown-item" href="Anti-Bribery.html">Anti-bribery & Corruption</a>
+                            <a class="dropdown-item" href="Privacyand-data-protection.html">Privacy & Data Protection</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">Ethics Quiz</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Recognition Corner
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="champions-recognition.html">Meet our Ethics Champions</a>
+                            <a class="dropdown-item" href="employee-recognition.html">Employee Recognition</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="training.html">Trainings</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="learning.html">Learnings</a>
+                        </li>
+                </ul>
+                <div class="Search-input">
+                        <input type="text" placeholder="Search.."/>
+                        <span class="search-icon"><i class="fa fa-search"></i></span>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+    <!-- Nav bar menu section ends here -->
+    <!-- Banner starts here -->
+    <div class="banner-wrapper">
+        <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+            <div class="carousel-item active inner-banner">
+                <img src="assets/images/quiz-banner.png" alt="Conflict of Interest" class="img-fluid">
+                <div class="carousel-caption inner-pages ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="slide-captn text-left text-white">
+                                <h3 class="image-title">Ethics Quiz</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="body-content pt-5 pb-2">
+        <div class="container">
+            <div class="row">
+                    <h3 class="body-title mb-5"><img src="assets/images/create-quiz-icon.png" class="img-fluid pr-4">Create Quiz</h3>
+                   <div class="col-12">
+                    <div class="Admin-wrapper mb-5">
+                        <div class="card general-input">
+                        <h5>General</h5>
+                        <div class="row py-3">
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control answer-type" placeholder="Quiz ID">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control answer-type" placeholder="Quiz title">
+                            </div>
+                            <div class="input-group drop-option mb-3">
+                                    <select class="form-control dropdown" id="state">
+                                            <option>Participant</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                          </select>    
+                            </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Quiz Date">
+                            <div class="input-group-append">
+                            <span class="input-group calend"><i class="fa fa-calendar fa-2x calend"></i></span>
+                            </div>
+                          </div>
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Quiz Time">
+                            <div class="input-group-append">
+                              <span class="input-group clock"><i class="fa fa-clock-o fa-2x calend"></i></span>
+                            </div>
+                          </div>
+                          <div class="form-group drop-option mb-3">                           
+                                <select class="form-control dropdown" id="state">
+                                  <option>Participant</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>                               
+                              </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pt-3">
+                    <div class="card passage-input">
+                    <h5>Passage</h5>
+                    <div class="form-group">
+                        <label for="email">Enable Passage:</label>
+                        <div class="toggle">
+                            <span class="switcher switcher-1">
+                              <input type="checkbox" id="switcher-1" />
+                              <label for="switcher-1"></label>
+                            </span>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="Passage">Enter Passage:</label>
+                        <input type="text" class="form-control" id="Passage" placeholder="Title">
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" rows="5" id="comment" placeholder="Body"></textarea>
+                      </div>
+                    <div class="form-group">
+                      <a class="mtn-btn btn">Save</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pt-3">
+                    <div class="card timing-input">
+                        <h5>Timing</h5>
+                        <div class="form-group">
+                            <label for="email">Shuffle Questions:</label>
+                            <div class="toggle">
+                                <span class="switcher switcher-1">
+                                  <input type="checkbox" id="switcher-2" />
+                                  <label for="switcher-2"></label>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Shuffle Questions:</label>
+                            <div class="toggle">
+                                <span class="switcher switcher-1">
+                                  <input type="checkbox" id="switcher-3" />
+                                  <label for="switcher-3"></label>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Passage">Time Limit:</label>
+                            <input type="text" class="form-control" id="Passage" placeholder="15 mins">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                    <div class="card Question-section">
+                        <h5>Questions</h5>
+                        <div class="form-group-inline row py-2">
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">                            
+                                <label for="answer" class="answer-type">Select answer type:</label>
+                            </div>
+                            <div class="toggle">
+                                <span class="switcher1 switcher1-1">
+                                  <input type="checkbox" id="switcher1-3" checked />
+                                  <label for="switcher1-3"></label>
+                                </span>
+                            </div>
+                            <!-- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input" name="optradio" checked>Radio Buttons
+                                        </label>
+                                    </div>
+                                                                                
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" value="">checkbox
+                                        </label>
+                                    </div>
+                                </div> -->
+                            </div> 
+                            
+                        
+                        <div class="form-group-inline row">
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                <label for="number" class="answer-type">Select Number of Answers for current question: </label>
+                            </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <select class="form-control dropdown" id="state">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                              </select>
+                                </div>
+                            
+                        </div>
+
+                        <form  id= "question-options">
+
+                                <div class="form-group-inline row py-2">
+                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                            <label for="number" class="answer-type">Questions: </label>
+                                        </div>
+                                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 pb-2">
+                                                    <div class="form-group ">
+                                                            <textarea class="form-control" rows="5" id="question" placeholder="Who is the current President of Nigeria" required></textarea>
+                                                          </div>
+                                            </div>
+                                        
+                                    </div>
+                                    <div class="form-group-inline row py-3">
+                                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                                <label for="number" class="answer-type">Options: </label>
+                                            </div>
+                                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                                        <table class="table table-bordered question-table select-option"  style="display:none"  >    
+                                                                <tbody  id = "checkbox-table">
+                                                                     <tr class = "option">
+                                                                       <th scope="row" id="firstT-head"><div class="form-check-inline align-middle">
+                                                                           <input type="checkbox" id="checkbox-table"  class="form-check-input align-middle" name="optradio2"></div>Option1</th>
+                                                                       <td><input type="text" id="optionA"  placeholder= "Olusegun Obasanjo"></td>
+                                                                       <td class="delete-item">
+                                                                               <i class="fa fa-trash" style="font-size: 18px;"></i>
+                                                                       </td>
+                                                                       
+                                                                     </tr>
+   
+                                                                     <tr id = "lastcheckboxrow">
+                                                                         <th scope="row" id="lastT-head"><input type="button" class="mtn-btn btn"  value="Add Option" id="addCheckboxOption" /></th>
+                                                                         <td></td>
+                                                                         <td></td>
+   
+                                                                     </tr>
+                                       </tbody>
+                                       </table>
+                                       <table class="table table-bordered question-table select-option" >    
+                                            <tbody  id="radio-table">
+                                                 <tr class = "option">
+                                                   <th scope="row" id="firstT-head"><div class="form-check-inline align-middle">
+                                                       <input type="radio"  class="form-check-input align-middle" name="optradio2"></div>Option1</th>
+                                                   <td><input type="text" class="radio-option"  placeholder= "Olusegun Obasanjo"></td>
+                                                   <td class="delete-item">
+                                                           <i class="fa fa-trash" style="font-size: 18px;"></i>
+                                                   </td>
+                                                   
+                                                 </tr>
+
+                                                 <tr id = "lastradiorow">
+                                                     <th scope="row" id="lastT-head"><input type="button" class="mtn-btn btn"  value="Add Option" id="addRadioOption" ></th>
+                                                     <td></td>
+                                                     <td></td>
+
+                                                 </tr>
+                   </tbody>
+                   </table>
+                                       <button type="submit" id="submitToTable" class="mtn-btn btn add-new">submit</button>
+                                                </div>                                    
+                                        </div>
+        
+
+                        </form>
+                       
+                                <div class="form-group row py-2">
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+                                        <label for="number" class="answer-type">Total Question: </label>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                        <table class="table table-bordered total-quest-table">
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col">S/N</th>
+                                                    <th scope="col">Questions</th>
+                                                    <th scope="col">Options</th>
+                                                    <th scope="col"colspan="2">Actions</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody id= "question-options-template">
+                                                  <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Who is the current president of Nigeria?</td>
+                                                    <td>
+                                                            <ul class="quest-option-list">
+                                                                    <li>A.   Olusegun Obasanjo</li>
+                                                                    <li>B.   Olusegun Obasanjo</li>
+                                                                    <li>C.   Olusegun Obasanjo</li>
+                                                                    <li>D.   Olusegun Obasanjo</li>
+                                                                </ul>
+                                                    </td>
+                                                    <td>
+                                                        <i class="fa fa-edit" style="font-size: 18px;"></i>
+                                                    </td>
+                                                    <td>
+                                                            <i class="fa fa-trash" style="font-size: 18px;"></i>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>                                
+                                                    </td>
+                                                    <td></td>
+                                                    <td>
+                                                            <i class="fa fa-edit" style="font-size: 18px;"></i>
+                                                    </td>
+                                                    <td>
+                                                            <i class="fa fa-trash" style="font-size: 18px;"></i>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">3</th>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td>
+                                                            <i class="fa fa-edit" style="font-size: 18px;"></i>
+                                                    </td>
+                                                    <td>
+                                                            <i class="fa fa-trash" style="font-size: 18px;"></i>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card button-section ">
+                        <div class="row text-align-center justify-content-center">
+                       <span><a class="mtn-btn btn ">Save draft</a></span>
+                       <span><a class="mtn-btn btn ">Cancel</a></span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer Content -->
+    <footer class="footer-section col-md-12">
+        <div class="row justify-content-center">
+            <div class="footer-list py-4">
+                <ul class="list-inline">
+                    <li class="contact text-white pr-3"> Contact Us:</li>
+                    <li><a href="#"><i class="fa fa-facebook-official" style="font-size:17px;color:#fff"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" style="font-size:17;color:#fff"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" style="font-size:17px;color:#fff"></i></a></li>
+                    <li><a href="#"><i class="fa fa-map-marker" style="font-size:17px;color:#fff"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" style="font-size:17px;color:#fff"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="Admin-Create.js"></script>
+    
+</body>
+
+</html>
